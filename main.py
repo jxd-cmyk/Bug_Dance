@@ -160,7 +160,7 @@ class AboutDialog(QDialog):
             "<b>#Fear the penguin!#</b><br>"
             "##############################################<br>"
             "The invertebrates are real; the photographs<br>"
-            "were taken between 2022 and 2029 in<br>"
+            "were taken between 2022 and 2026 in<br>"
             "the Czech Republic. No creatures, beetles,<br>"
             "or spiders were harmed during the photography<br>"
             "or the development of this software.<br>"
