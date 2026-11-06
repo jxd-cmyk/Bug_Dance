@@ -28,7 +28,16 @@ Exit: Completely closes the application, overlay windows, and catalog dialog.
 * Download Bug Dance from the Microsoft Store (https://apps.microsoft.com/detail/9n2sxrc95vv5?hl=en-US&gl=CZ
 )
 
-* Credits & Copyright - Where can users get help with our project?
+
+## License
+
+Bug Dance software © 2026 Jiří X. Doležal is licensed under the GNU General Public License, version 3 (GPL-3.0-only). See [LICENSE](LICENSE) for the full terms.
+
+The software may be used, modified, and redistributed, including commercially, subject to GPLv3. Redistribution requires preserving copyright and license notices and providing the corresponding source code as required by GPLv3. Distributed modified versions must also remain under GPLv3.
+
+Photographs © 2026 Jaroslav M. Soukup are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). You may share and adapt them, including commercially, provided that you credit the photographer, link to the license, and indicate any changes.
+
+Third-party components and artwork, including PyQt6, Qt, and Tux, remain subject to their respective licenses.
 
 Concept & Software: © Jiri X. Dolezal (https://jxd.cz/)
 
