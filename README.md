@@ -28,6 +28,76 @@ Exit: Completely closes the application, overlay windows, and catalog dialog.
 * Download Bug Dance from the Microsoft Store (https://apps.microsoft.com/detail/9n2sxrc95vv5?hl=en-US&gl=CZ
 )
 
+## Running from source and building
+
+### Requirements
+
+- Windows
+- Python 3 with pip and venv support
+- PyQt6
+- PyInstaller (only needed to build the executable)
+
+### Prepare the project
+
+Download and extract the repository, or clone it. Keep these files together in the project directory:
+
+- `main.py`
+- `BugDance.spec`
+- `Bug_Dance.ico`
+- `Catalog_of_Bugs.png`
+- All 24 photographs: `Jaroslav.M.Soukup_bugs_1.png` through `Jaroslav.M.Soukup_bugs_24.png`
+
+Open PowerShell in that directory. Create a virtual environment and install the dependencies:
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install PyQt6 PyInstaller
+```
+
+These commands install the currently available dependency versions; this project does not yet provide a pinned, tested dependency list.
+
+### Run from source
+
+```powershell
+.\.venv\Scripts\python.exe main.py
+```
+
+Use the Bug Dance notification-area icon to access the controls. Choose **Exit** to close the application.
+
+### Build the Windows executable
+
+Run this command from the project directory:
+
+```powershell
+.\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm BugDance.spec
+```
+
+The executable is created at `dist\BugDance.exe`.
+
+The supplied build configuration does not bundle the runtime images. Copy them and the icon into `dist`:
+
+```powershell
+Copy-Item -LiteralPath "Bug_Dance.ico", "Catalog_of_Bugs.png" -Destination ".\dist"
+Copy-Item -Path ".\Jaroslav.M.Soukup_bugs_*.png" -Destination ".\dist"
+```
+
+Keep these files alongside the executable when moving or distributing the application.
+
+### Run the built application
+
+```powershell
+.\dist\BugDance.exe
+```
+
+The application stores `bug_dance_config.json` beside the executable, or beside `main.py` when running from source. Use a folder where your Windows account has write permission so that preferences can be saved.
+
+### Microsoft Store packaging
+
+This procedure builds a standalone Windows executable. It does not create or sign a Microsoft Store MSIX package. Store packaging files and instructions are not included in this source folder.
+
+### Redistribution
+
+When distributing a build, include the applicable license texts and copyright notices, and provide the corresponding source code as required by GPLv3. Preserve the separate license terms for photographs and third-party components.
 
 ## License
 
