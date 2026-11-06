@@ -5,7 +5,7 @@ README
 * What the project does
 
 An interactive, ambient desktop overlay application for Windows 11 built with Python and PyQt6. Floating invertebrate graphics animate across your screen while full control remains accessible via the Windows System Tray. The invertebrates are real; the photographs were taken between 2022 and 2026 in the Czech Republic. No creatures, beetles, or spiders were harmed during the photography or the development of this software.
-The repository does not publish the application code; it merely provides information about its existence. The repository contains documentation and support.
+This repository contains the source code, image assets, build configuration, documentation, and support information for Bug Dance.
 
 * Technical Setup & Running
 
