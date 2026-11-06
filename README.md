@@ -37,6 +37,8 @@ Concept & Software: © Jiri X. Dolezal (https://jxd.cz/)
 
 Photography: © Jaroslav M. Soukup https://web.facebook.com/profile.php?id=100008282163799  https://www.instagram.com/jaroslavsoukup/ 
 
+Tux © Larry Ewing 
+
 Organization: JXD VibeLabs
 
 Contact: jxd@jxd.cz
@@ -50,7 +52,3 @@ The director of the creature documentation section is Jaroslav M. Soukup, who en
 * VibeLabs is the last refuge for stoned binary penguins in Central Europe. It is based in Prague 6 and serves as a defense for its owner against senile dementia caused by brain inactivity in old age. 
 Small flying creatures such as beetles, spiders, and bats fill the monitor with movement and inspire.
 <img width="500" height="500" alt="JXD VibeLabs_white_500" src="https://github.com/user-attachments/assets/690589c4-b7c7-4fb3-8aad-a993bf3deae5" />
-Tux © Larry Ewing
-
-
-* Fear the penguin!
