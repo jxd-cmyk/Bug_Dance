@@ -19,7 +19,7 @@ Pause / Play: Pause or resume all floating bug animations instantly.
 Speed Controls: 5 speed tiers (Very Slow, Slow, Normal, Fast, Very Fast).
 Always on top Toggle: Option to pin floating bugs above all active desktop windows.
 Bugs Submenu (Bug #1 – Bug #24): Toggle individual bugs on or off.
-Catalog of Bugs Sub-window: Open About and click to HERE - the Bugs Catalog automatically presents a 1000px wide Catalog preview (`Catalog_of_Bugs.png`) with numbers of bugs an explicit "Close" button.
+Catalog of Bugs Sub-window: Open the About dialog and click ‘HERE’ - the Bugs Catalog automatically presents a 1000px wide Catalog preview (`Catalog_of_Bugs.png`) with numbers of bugs an explicit "Close" button.
 Persistent Configuration: Automatically saves your speed, "Always on top" state, and bug selection to `bug_dance_config.json` upon exit and restores them on launch.
 About Dialog: Displays legal notices, photographer credits, and clickable contact links.
 Run at Windows start-up: Configures HKCU registry auto-start without requiring UAC administrative elevation.
